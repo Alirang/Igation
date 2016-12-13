@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/igation_background_jpg">
+
+        <TextView
+            android:text="설정"
+            android:layout_width="80dp"
+            android:layout_height="47dp"
+            tools:layout_editor_absoluteY="145dp"
+            android:id="@+id/textView3"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="30sp"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:text="스마트워치 연동"
+            android:layout_width="143dp"
+            android:layout_height="45dp"
+            tools:layout_editor_absoluteY="266dp"
+            android:id="@+id/textView4"
+            android:layout_marginEnd="48dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/square_shape_blue"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Switch
+            android:layout_width="122dp"
+            android:layout_height="58dp"
+            tools:layout_editor_absoluteY="255dp"
+            android:id="@+id/switch1"
+            app:layout_constraintRight_toLeftOf="@+id/textView4"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:text="블루투를 연동해주세요!"
+            android:layout_width="170dp"
+            android:layout_height="33dp"
+            tools:layout_editor_absoluteY="437dp"
+            android:id="@+id/textView5"
+            android:background="@drawable/square_shape_mint"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

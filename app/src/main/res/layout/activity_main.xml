@@ -71,5 +71,13 @@
             android:background="@drawable/square_shape_mint"
             android:elevation="1dp" />
 
+        <Button
+            android:layout_height="88dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="296dp"
+            android:id="@+id/button"
+            android:background="@drawable/setting"
+            android:layout_width="88dp" />
+
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>
